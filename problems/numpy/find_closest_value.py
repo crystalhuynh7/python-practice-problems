@@ -10,10 +10,9 @@ def find_closest_value(x):
     Returns: the index and the scalar value in x that is 
         closest to the mean
     """
+    idx = np.abs(np.mean(x)-x).argmin()
     
-    # YOUR CODE HERE
-    # Replace None with an appropriate return value
-    return None
+    return (idx,x[idx])
     
 
 #############################################################
