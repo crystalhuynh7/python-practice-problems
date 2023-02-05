@@ -9,9 +9,7 @@ def compute_matching_indices(x, y):
     Note that the returned array must be one-dimensional! 
     """
 
-    # YOUR CODE HERE
-    # Replace None with an appropriate return value
-    return None
+    return np.where(np.equal(x,y))[0]
     
 
 #############################################################
